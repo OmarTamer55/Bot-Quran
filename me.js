@@ -5,8 +5,8 @@ client.on('ready', () => {
 });
 
 
-const developers = ["هنا الايدي"]
-const adminprefix = "^";
+const developers = ["516342972925607947"]
+const adminprefix = "$";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
@@ -32,4 +32,4 @@ client.on('message', message => {
 
 
 
-client.login("هنا التوكن حقك");
+client.login("NTE2MzQyOTcyOTI1NjA3OTQ3.DtywbQ.kuusFcvbT3nObH1o6Ky1MbSyxXk");
